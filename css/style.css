@@ -16,7 +16,6 @@ body {
 	box-sizing: border-box;	
 }
 
-
 img { 
 	width:auto; 
 	max-width:100%; 
@@ -92,7 +91,6 @@ nav ul li:hover a {
 }
 
 /* css for <div class="top-image"> */
-
 .top-image {
 	background-image: url("../images/laptop-im-gras.jpg");
 	min-height: 400px;
@@ -103,7 +101,7 @@ nav ul li:hover a {
 }
 
 
-/* css for <section class='content'> */
+/* css for <div class='content'> */
 div.content { 
 	width: 70%; 
 	float:left; 
@@ -153,6 +151,7 @@ aside.sidebar .ich img{
 	transition: transform .2s;
 }
 
+/* css for <section> */
 section {
 	width: 100%;
 	clear: both;
@@ -216,7 +215,6 @@ nav ul {
 nav ul li a {
 	padding: 0.6em;
 }
-
 
 div.content {
     padding: 0 0.8em;
