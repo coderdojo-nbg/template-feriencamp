@@ -35,7 +35,7 @@ a {
 /* css for <header> */
 header {
 	padding: 1em 0;
-	margin: 0px;
+	margin: 0;
 	width: 100%;
 	text-align: center;
 }
@@ -43,7 +43,7 @@ header {
 /* css for <nav> */
 nav {
 	margin: 0;
-	padding: 0px;
+	padding: 0;
 	width: 100%;
 	background-color:#093;
 	display: flex;
@@ -56,7 +56,7 @@ nav ul {
 	list-style: none;
 	position: relative;
 	z-index: 9999;
-	margin: 0px;
+	margin: 0;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
@@ -77,12 +77,12 @@ nav ul li:last-of-type a {
 }
 
 nav ul li a.active {
-	background:#FFCC00;
+	background:#ffcc00;
 	color: #093;
 }
 
 nav ul li:hover {
-	background:#FFCC00;
+	background:#ffcc00;
 	color: #093;
 }
 
@@ -124,7 +124,7 @@ aside.sidebar {
 	width: 30%; 
 	float:left;
 	padding: 0 0 0 1em;
-	margin-bottom: 30px; 
+	margin-bottom: 2em; 
 	color: #fff;
 }
 
@@ -139,8 +139,8 @@ aside.sidebar .sidebar-box {
 
 aside.sidebar h2 {
 	width:100%;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	float: left;
     font-size: 1.5em;
 }
@@ -148,7 +148,6 @@ aside.sidebar h2 {
 aside.sidebar .ich img{
 	border-radius: 50%;
 	margin: 1em 0;
-	transition: transform .2s;
 }
 
 /* css for <section> */
@@ -172,7 +171,7 @@ section.bottom-b {
 section .left {
 	float: left;
 	width: 50%;
-	padding: 0 10px 30px 0;
+	padding: 0 1.2em 1.5em 0;
 }
 
 section .right {
