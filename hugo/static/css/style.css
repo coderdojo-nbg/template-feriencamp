@@ -145,7 +145,7 @@ aside.sidebar h2 {
     font-size: 1.5em;
 }
 
-aside.sidebar .ich img{
+.ich img{
 	border-radius: 50%;
 	margin: 1em 0;
 	transition: transform .2s;
@@ -156,6 +156,16 @@ section {
 	width: 100%;
 	clear: both;
 	padding: 2em 0; 
+}
+
+section a.button {
+	padding: 0.8em;
+	background-color: #093;
+	color: #fff; 
+}
+
+section a.button:hover {
+	color: #000; 
 }
 
 section.bottom-a {
@@ -172,12 +182,32 @@ section.bottom-b {
 section .left {
 	float: left;
 	width: 50%;
-	padding: 0 10px 30px 0;
+	padding: 0 0.5em 0.8em 0;
 }
 
 section .right {
 	float: right;
 	width: 50%;
+}
+
+section .teilnehmer {
+	float: left;
+	border-bottom: 1px solid #fff;
+}
+
+section .teilnehmer:last-child {
+	border-bottom: 0;
+}
+
+section .teilnehmer .left {
+	float: left;
+	width: 80%;
+	padding: 0 0.5em 0.8em 0;
+}
+
+section .teilnehmer .right {
+	float: right;
+	width: 20%;
 }
 
 /* css for <footer> */
@@ -238,6 +268,14 @@ section .left {
 }
 
 section .right {
+	width: 100%;
+}
+
+section .teilnehmer .left {
+	width: 100%;
+}
+
+section .teilnehmer .right {
 	width: 100%;
 }
 

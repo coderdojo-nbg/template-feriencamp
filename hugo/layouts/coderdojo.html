@@ -2,7 +2,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>{{.Site.Title}}</title>
+<title>Mein Coderdojo Nürnberg</title>
 
 <link href="images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 <link href="css/normalize.css" rel="stylesheet" type="text/css">
@@ -13,12 +13,13 @@
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
-<meta name="description" content="Hier gibt's Informationen über das Coderdojo-Feriencamp" />
+<meta name="description" content="Hier gibt's Informationen über Coderdojo Nürnberg" />
+
 </head>
 
 <body>
 	<!-- header mit Logo -->
-	<header>
+    <header>
         <div class=logo>
             <a href="#"><img src="images/coderdojo-logo.png" alt="CoderDojo Logo" /></a>
         </div>
@@ -26,59 +27,50 @@
     <!-- Navigation -->
     <nav>
         <ul class="main-nav">
-            <li><a href="index.html" class="active">Start</a></li>
-            <li><a href="coderdojo.html">Coderdojo</a></li>
+            <li><a href="index.html">Start</a></li>
+            <li><a href="coderdojo.html" class="active">CoderDojo</a></li>
             <li><a href="impressum.html">Impressum</a></li>
         </ul>
     </nav>
-    <!-- großes Bild im oberen Bereich -->    
+    <!-- großes Bild im oberen Bereich -->
     <div class="top-image"></div>
     <!-- Content - Inhalt mit Sidebar -->
     <div id="wrapper">
         <div class="content">        
             <article>
-                <h1>Willkommen beim CoderDojo-Feriencamp!</h1>                           
-                <img src="images/josephs.jpg"> 
-                <p>Im Coderdojo-Feriencamp kannst Du tolle Dinge erleben! Es gibt viele verschiedene Projekte, die Du hier mit Mentoren umsetzten kannst.</p>           
-            </article>    
+                <h1>Coderdojo-Nürnberg</h1>
+                <p>Hier kommt ganz viel Text über das Coderdojo-Nürnberg.</p>            
+            </article>   
         </div>
         <aside class="sidebar">
             <div class="sidebar-box">
-                <h2>Wo?</h2>
-                <p>JOSEPHS® <br />Karl-Grillenberger-Straße 3 <br />90402 Nürnberg <br />Telefon +49 (0) 911 2743 6520 <br />E-Mail josephs (at) scs.fraunhofer.de</p>
+                <h2>Das sind wir</h2>
+                <img src="images/gruppenbild.jpg" alt="Ich" />
             </div>
-            <div class="sidebar-box">
-                <h2>Wann?</h2>
-                <p>Donnerstag, 04.08.2017 bis <br />Samstag, 06.08.2017</p>
-            </div>  
         </aside>
    </div>
     <!-- Bottom - Unterer Bereich -->
     <section class="bottom-a">
         <div id="wrapper">
-            <h2>Wer ist dabei? Version 1</h2>
-        </div>
-        <div id="wrapper">
-            {{ range .Data.Pages }}
-            {{if eq .Type "teilnehmer" }}
-            {{ partial "teilnehmer.html" . }}
-            {{end}}
-            {{ end }}
-        </div>
-    </section>
-    <section class="bottom-a">
-        <div id="wrapper">
-            <h2>Wer ist dabei? Version 2</h2>
-        </div>
-        <div id="wrapper">
-            <h3><a href="teilnehmer/">Zur Liste der Teilnehmer</a></h3>
+            <div class="left">
+                <h2>Unsere Projekte</h2>
+                <ul>
+                    <li>Erstes Projekt</li>
+                    <li>Zweites Projekt</li>
+                    <li>Drittes Projekt</li>
+                    <li>Viertes Projekt</li>
+                </ul>
+            </div>
+            <div class="right">
+                <img src="images/josephs.jpg" alt="Josephs" />
+            </div>
         </div>
     </section>
     <section class="bottom-b">
         <div id="wrapper">
             <div class="left">
-                <h2>Wie war's?</h2>
-                <p>Hier ein Einblick in unser Feriencamp.</p>
+                <h2>Was machen wir beim Coderdojo?</h2>
+                <p>Kurze Beschreibung über das Coderdojo</p>
             </div>
             <div class="right">
                 <video width=100% controls poster="images/standbild.jpg" autobuffer controls>
