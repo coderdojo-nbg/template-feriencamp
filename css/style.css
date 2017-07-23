@@ -27,7 +27,7 @@ a {
 	text-decoration: none; 
 }
 
-#wrapper {
+.wrapper {
 	max-width: 70vw; 
 	margin: 0 auto;
 }

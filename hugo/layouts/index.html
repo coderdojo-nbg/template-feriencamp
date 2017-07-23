@@ -26,7 +26,7 @@
 <!-- großes Bild im oberen Bereich -->
     <div class="top-image"></div>
     <!-- Content - Inhalt mit Sidebar -->
-    <div id="wrapper">
+    <div class="wrapper">
         <div class="content">        
             <article>
                 <h1>Willkommen beim CoderDojo-Feriencamp!</h1>                           
@@ -38,10 +38,10 @@
     </div>
     <!-- Bottom - Unterer Bereich -->
     <section class="bottom-a">
-        <div id="wrapper">
+        <div class="wrapper">
             <h2>Wer ist dabei? Version 1</h2>
         </div>
-        <div id="wrapper">
+        <div class="wrapper">
             {{ range .Data.Pages }}
             {{if eq .Type "teilnehmer" }}
             {{ partial "teilnehmer.html" . }}
@@ -50,15 +50,15 @@
         </div>
     </section>
     <section class="bottom-a">
-        <div id="wrapper">
+        <div class="wrapper">
             <h2>Wer ist dabei? Version 2</h2>
         </div>
-        <div id="wrapper">
+        <div class="wrapper">
             <h3><a href="teilnehmer/">Zur Liste der Teilnehmer</a></h3>
         </div>
     </section>
     <section class="bottom-b">
-        <div id="wrapper">
+        <div class="wrapper">
             <div class="left">
                 <h2>Wie war's?</h2>
                 <p>Hier ein Einblick in unser Feriencamp.</p>

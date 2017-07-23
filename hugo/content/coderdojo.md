@@ -3,7 +3,7 @@ Title = ""
 Description = ""
 +++
 
-<div id="wrapper">
+<div class="wrapper">
     <div class="content">
         <article>
             <h1>Coderdojo-Nürnberg</h1>
@@ -19,7 +19,7 @@ Description = ""
 </div>
 <!-- Bottom - Unterer Bereich -->
 <section class="bottom-a">
-    <div id="wrapper">
+    <div class="wrapper">
         <div class="left">
             <h2>Unsere Projekte</h2>
             <ul>
@@ -35,7 +35,7 @@ Description = ""
     </div>
 </section>
 <section class="bottom-b">
-    <div id="wrapper">
+    <div class="wrapper">
         <div class="left">
             <h2>Was machen wir beim Coderdojo?</h2>
             <p>Kurze Beschreibung über das Coderdojo</p>

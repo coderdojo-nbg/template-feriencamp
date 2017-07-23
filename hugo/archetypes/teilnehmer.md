@@ -2,7 +2,7 @@
 Title = ""
 Description = ""
 Weight = "1"
-teilnehmerName = ""
+teilnehmer = ""
 link = "#"
 image = "images/ich.jpg"
 +++
