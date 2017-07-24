@@ -24,14 +24,16 @@
 
 <!-- großes Bild im oberen Bereich -->
 <div class="top-image"></div>
-<!-- Content - Inhalt mit Sidebar -->
-<div class="wrapper">
-    <div class="content">
-        <article>
-            {{.Content}}
-        </article>
+<!-- Main-Content - Inhalt(content) mit Sidebar -->
+<div class="main-content">
+    <div class="wrapper">
+        <div class="content">
+            <article>
+                {{.Content}}
+            </article>
+        </div>
+        {{ partial "aside.html" . }}
     </div>
-    {{ partial "aside.html" . }}
 </div>
 <!-- Footer -->
 {{ partial "footer.html" . }}

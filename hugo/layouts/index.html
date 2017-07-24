@@ -24,16 +24,18 @@
 
 <!-- großes Bild im oberen Bereich -->
     <div class="top-image"></div>
-    <!-- Content - Inhalt mit Sidebar -->
-    <div class="wrapper">
-        <div class="content">        
-            <article>
-                <h1>Willkommen beim CoderDojo-Feriencamp!</h1>                           
-                <img src="/images/josephs.jpg">
-                <p>Im Coderdojo-Feriencamp kannst Du tolle Dinge erleben! Es gibt viele verschiedene Projekte, die Du hier mit Mentoren umsetzten kannst.</p>           
-            </article>    
+    <!-- Main-Content - Inhalt(content) mit Sidebar -->
+    <div class="main-content">
+        <div class="wrapper">
+            <div class="content">        
+                <article>
+                    <h1>Willkommen beim CoderDojo-Feriencamp!</h1>                           
+                    <img src="/images/josephs.jpg">
+                    <p>Im Coderdojo-Feriencamp kannst Du tolle Dinge erleben! Es gibt viele verschiedene Projekte, die Du hier mit Mentoren umsetzten kannst.</p>           
+                </article>    
+            </div>
+            {{ partial "aside.html" . }}
         </div>
-        {{ partial "aside.html" . }}
     </div>
     <!-- Bottom - Unterer Bereich -->
     <section class="bottom-a">
