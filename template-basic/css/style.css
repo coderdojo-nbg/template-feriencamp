@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 100%; /* best for all browser using em */
+	padding:0; 
+	margin:0;
+}
+
+*, html { 
+	line-height: 1.6em; 
+}
+
+* {
+	box-sizing: border-box;	
+}
+
+img { 
+	width:auto; 
+	max-width:100%; 
+	height:auto; 
+}
+
+a { 
+	color: #093;
+	text-decoration: none; 
+}
+
+.wrapper {
+	max-width: 70vw; 
+	margin: 0 auto;
+}
+
+/* css for <header> */
+header {
+	
+}
+
+/* css for <nav> */
+nav {
+	
+}
+	
+nav ul {
+	
+}
+
+nav ul li a {
+	
+}
+
+nav ul li:last-of-type a {
+
+}
+
+nav ul li a.active {
+	
+}
+
+nav ul li:hover {
+
+}
+
+nav ul li:hover a {
+
+}
+
+/* css for <div class="top-image"> */
+.top-image {
+	
+}
+
+
+/* css for <div class='content'> */
+div.content { 
+	
+}
+
+.content article { 
+	
+}
+
+.content article h1 {
+
+}
+
+
+/* css for <aside class='sidebar'> */
+aside.sidebar { 
+	
+}
+
+aside.sidebar a {
+
+}
+
+aside.sidebar .sidebar-box {  
+
+}
+
+aside.sidebar h2 {
+
+}
+
+aside.sidebar .ich img{
+
+}
+
+/* css for <section> */
+section {
+	
+}
+
+section.bottom-a {
+	
+}
+
+section.bottom-b {
+	
+}
+
+section .left {
+	
+}
+
+section .right {
+
+}
+
+/* css for <footer> */
+footer {
+	
+}
+
+footer a { 
+
+}
+
+@media only screen and (max-width:959px){
+
+
+}
