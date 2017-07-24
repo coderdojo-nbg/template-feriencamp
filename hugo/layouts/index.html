@@ -39,8 +39,6 @@
     <section class="bottom-a">
         <div class="wrapper">
             <h2>Wer ist dabei? Version 1</h2>
-        </div>
-        <div class="wrapper">
             {{ range .Data.Pages }}
             {{if eq .Type "teilnehmer" }}
             {{ partial "teilnehmer.html" . }}
@@ -51,8 +49,6 @@
     <section class="bottom-a">
         <div class="wrapper">
             <h2>Wer ist dabei? Version 2</h2>
-        </div>
-        <div class="wrapper">
             <h3><a href="teilnehmer/">Zur Liste der Teilnehmer</a></h3>
         </div>
     </section>
