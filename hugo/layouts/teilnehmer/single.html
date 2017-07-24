@@ -19,11 +19,11 @@
 
 <body>
 <div class="teilnehmer">
-    <div class="ich">
-        <img src="{{.Params.image}}" alt="Ich"/>
-    </div>
-    <h3>{{.Params.teilnehmer}}</h3>
     <div class="right">
+        <h3>{{.Params.teilnehmer}}</h3>
+        <div class="ich">
+            <img src="{{.Params.image}}" alt="Ich"/>
+        </div>
     </div>
     <div class="left">
         <p>{{.Content}}</p>
