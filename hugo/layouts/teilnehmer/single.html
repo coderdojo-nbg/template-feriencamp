@@ -18,6 +18,11 @@
 </head>
 
 <body>
+<!-- header mit Logo -->
+{{ partial "header.html" . }}
+<!-- Navigation -->
+{{ partial "navigation.html" . }}
+
 <div class="teilnehmer">
     <div class="ich">
         <img src="{{.Params.image}}" alt="Ich"/>
@@ -30,5 +35,7 @@
         <p><a class="button" href="{{.Params.link}}">Zur Website vom {{.Params.teilnehmer}}</a></p>
     </div>
 </div>
+<!-- Footer -->
+{{ partial "footer.html" . }}
 </body>
 </html>
