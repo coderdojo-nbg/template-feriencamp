@@ -1,9 +1,8 @@
 <!DOCTYPE HTML>
-<html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>{{.Site.Title}}</title>
+    <title>Mein Coderdojo Nürnberg</title>
 
     <link href="images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
     <link href="css/normalize.css" rel="stylesheet" type="text/css">
@@ -14,28 +13,36 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <meta name="description" content="Hier gibt's Informationen über das Coderdojo-Feriencamp"/>
+    <meta name="description" content=""/>
+
 </head>
-
 <body>
-<!-- header mit Logo -->
-{{ partial "header.html" . }}
-<!-- Navigation -->
-{{ partial "navigation.html" . }}
+    <!-- header mit Logo -->
+    <header>
 
-<div class="teilnehmer">
-    <div class="right">
-        <h3>{{.Params.teilnehmer}}</h3>
-        <div class="ich">
-            <img src="{{.Params.image}}" alt="Ich"/>
+    </header>
+    <!-- Navigation -->
+    <nav>
+
+    </nav>
+    <!-- großes Bild im oberen Bereich -->
+    <div class="top-image"></div>
+    <!-- Content - Inhalt mit Sidebar -->
+    <div class="main-content">
+        <div class="wrapper">
+            <div class="content">
+
+            </div>
+            <aside class="sidebar">
+
+            </aside>
         </div>
     </div>
-    <div class="left">
-        <p>{{.Content}}</p>
-        <p><a class="button" href="{{.Params.link}}">Zur Website vom {{.Params.teilnehmer}}</a></p>
-    </div>
-</div>
-<!-- Footer -->
-{{ partial "footer.html" . }}
+    <!-- Footer -->
+    <footer>
+        <div class="wrapper">
+
+        </div>
+    </footer>
 </body>
 </html>

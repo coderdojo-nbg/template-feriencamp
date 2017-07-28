@@ -12,8 +12,8 @@ Klingenhofstrasse 5
 90411 Nürnberg 
 Deutschland
 
-## Vertreten durch</h2>
-Joschi Kuphal, 1. Vorsitzender 
+## Vertreten durch
+Joschi Kuphal, 1. Vorsitzender
 Frank Schmittlein, 2. Vorsitzender
 
 ## Kontakt
