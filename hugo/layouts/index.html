@@ -43,18 +43,12 @@
         <!-- Bottom - Unterer Bereich -->
         <section class="bottom-a">
             <div class="wrapper">
-                <h2>Wer ist dabei? Version 1</h2>
+                <h2>Wer ist dabei?</h2>
                 {{ range .Data.Pages }}
                 {{if eq .Type "teilnehmer" }}
                 {{ partial "teilnehmer.html" . }}
                 {{end}}
                 {{ end }}
-            </div>
-        </section>
-        <section class="bottom-a">
-            <div class="wrapper">
-                <h2>Wer ist dabei? Version 2</h2>
-                <h3><a href="teilnehmer/">Zur Liste der Teilnehmer</a></h3>
             </div>
         </section>
         <section class="bottom-b">

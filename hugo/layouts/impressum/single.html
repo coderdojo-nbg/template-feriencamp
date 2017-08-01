@@ -17,16 +17,25 @@
 
 </head>
 <body>
-<!-- header mit Logo -->
-{{ partial "header.html" . }}
-<!-- Navigation -->
-{{ partial "navigation.html" . }}
+    <!-- header mit Logo -->
+    {{ partial "header.html" . }}
+    <!-- Navigation -->
+    {{ partial "navigation.html" . }}
 
-<!-- großes Bild im oberen Bereich -->
-<div class="top-image"></div>
-<!-- Main-Content - Inhalt(content) mit Sidebar -->
-{{.Content}}
-<!-- Footer -->
-{{ partial "footer.html" . }}
+    <!-- großes Bild im oberen Bereich -->
+    <div class="top-image"></div>
+    <!-- Main-Content - Inhalt(content) mit Sidebar -->
+    <div class="main-content">
+        <div class="wrapper">
+            <div class="content">
+                <article>
+                    {{.Content}}
+                </article>
+            </div>
+            {{ partial "aside.html" . }}
+        </div>
+    </div>
+    <!-- Footer -->
+    {{ partial "footer.html" . }}
 </body>
 </html>
