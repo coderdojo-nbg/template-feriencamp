@@ -5,89 +5,83 @@
 <title>Mein Coderdojo Nürnberg</title>
 
 <link href="images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
-<link href="css/normalize.css" rel="stylesheet" type="text/css">
 <link href="css/style.css" rel="stylesheet" type="text/css">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans|Baumans' rel='stylesheet' type='text/css'/>
-
-<!--[if lt IE 9]>
-<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
 
 <meta name="description" content="Hier gibt's Informationen über mich und mein Projekt" />
 </head>
 
 <body>
-	<!-- header mit Logo -->
+	<!-- header mit Logo und Navigation -->
 	<header>
         <div class=logo>
             <a href="#"><img src="images/coderdojo-logo.png" alt="CoderDojo Logo" /></a>
         </div>
+        <!-- Navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Start</a></li>
+                <li><a href="uebermich.html">Über mich</a></li>
+                <li><a href="impressum.html">Impressum</a></li>
+            </ul>
+        </nav>
     </header>
-    <!-- Navigation -->
-    <nav>
-        <ul class="main-nav">
-            <li><a href="index.html" class="active">Start</a></li>
-            <li><a href="uebermich.html">Über mich</a></li>
-            <li><a href="impressum.html">Impressum</a></li>
-        </ul>
-    </nav>
     <!-- großes Bild im oberen Bereich -->    
     <div class="top-image"></div>
-    <!-- Main-Content - Inhalt(content) mit Sidebar -->
-    <div class="main-content">
-        <div class="wrapper">
-            <div class="content">        
-                <article>
+    <!-- Main - Inhalt mit Sidebar -->
+    <main>
+        <div class="wrapper">        
+            <article>
                     <h1>Willkommen beim CoderDojo-Feriencamp!</h1>                           
                     <img src="images/josephs.jpg"> 
                     <p>Im Coderdojo-Feriencamp kannst Du tolle Dinge erleben! Es gibt viele verschiedene Projekte, die Du hier mit Mentoren umsetzten kannst.</p>           
-                </article>    
-            </div>
-            <aside class="sidebar">
-                <div class="sidebar-box">
+            </article>    
+            <aside>
+                <div class="box">
                     <h2>Wo?</h2>
                     <p>JOSEPHS® <br />Karl-Grillenberger-Straße 3 <br />90402 Nürnberg <br />Telefon +49 (0) 911 2743 6520 <br />E-Mail josephs (at) scs.fraunhofer.de</p>
                 </div>
-                <div class="sidebar-box">
+                <div class="box">
                     <h2>Wann?</h2>
                     <p>Donnerstag, 04.08.2017 bis <br />Samstag, 06.08.2017</p>
                 </div>  
             </aside>
        </div>
-   </div>
-   <!-- Bottom - Unterer Bereich -->
-    <section class="bottom-a">
-        <div class="wrapper">
-            <div class="left">
-                <h2>Wer ist dabei?</h2>
-                <p>Hier sind alle Teilnehmer, die beim ersten Feriencamp dabei waren: </p>
-                <ul>
-                    <li><a href="#">Erster Teilnehmer</a></li>
-                    <li><a href="#">Zweiter Teilnehmer</a></li>
-                    <li><a href="#">Dritter Teilnehmer</a></li>
-                </ul>
+       <!-- Section (Abschnitt) a -->
+        <section class="section-a">
+            <div class="wrapper">
+                <div class="left">
+                    <h2>Wer ist dabei?</h2>
+                    <p>Hier sind alle Teilnehmer, die beim ersten Feriencamp dabei waren: </p>
+                    <ul>
+                        <li><a href="#">Erster Teilnehmer</a></li>
+                        <li><a href="#">Zweiter Teilnehmer</a></li>
+                        <li><a href="#">Dritter Teilnehmer</a></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <img src="images/gruppenbild.jpg" alt="Gruppenbild" />
+                </div>
             </div>
-            <div class="right">
-                <img src="images/gruppenbild.jpg" alt="Gruppenbild" />
+        </section>
+        <!-- Section (Abschnitt) b -->
+        <section class="section-b">
+            <div class="wrapper">
+                <div class="left">
+                    <h2>Wie war's?</h2>
+                    <p>Hier ein Einblick in unser Feriencamp.</p>
+                </div>
+                <div class="right">
+                    <video width=100% controls poster="images/standbild.jpg" autobuffer controls>
+                        <source src="media/video.webm" type="video/webm">
+                        <source src="media/video.ogg"  type="video/ogg">
+                        <source src="media/video.mp4" type="video/mp4">
+                        <div>Schade – hier käme ein Video, wenn Ihr Browser HTML5 Unterstützung hätte, wie z.B. der aktuelle Firefox</div>
+                    </video>
+                </div>
             </div>
-        </div>
-    </section>
-    <section class="bottom-b">
-        <div class="wrapper">
-            <div class="left">
-                <h2>Wie war's?</h2>
-                <p>Hier ein Einblick in unser Feriencamp.</p>
-            </div>
-            <div class="right">
-                <video width=100% controls poster="images/standbild.jpg" autobuffer controls>
-                    <source src="media/video.webm" type="video/webm">
-                    <source src="media/video.ogg"  type="video/ogg">
-                    <source src="media/video.mp4" type="video/mp4">
-                    <div>Schade – hier käme ein Video, wenn Ihr Browser HTML5 Unterstützung hätte, wie z.B. der aktuelle Firefox</div>
-                </video>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
     <!-- Footer -->
     <footer>
         <div class="wrapper">@ 2017 | <a href="#">Dein Name - CoderDojo Nürnberg</a></div>

@@ -4,12 +4,10 @@ Description = ""
 +++
 
 <div class="wrapper">
-    <div class="content">
-        <article>
-            <h1>Coderdojo-Nürnberg</h1>
-            <p>Hier kommt ganz viel Text über das Coderdojo-Nürnberg.</p>
-        </article>
-    </div>
+    <article>
+        <h1>Coderdojo-Nürnberg</h1>
+        <p>Hier kommt ganz viel Text über das Coderdojo-Nürnberg.</p>
+    </article>
     <aside class="sidebar">
         <div class="sidebar-box">
             <h2>Das sind wir</h2>
@@ -17,8 +15,8 @@ Description = ""
         </div>
     </aside>
 </div>
-<!-- Bottom - Unterer Bereich -->
-<section class="bottom-a">
+<!-- Section (Abschnitt) a -->
+<section class="section-a">
     <div class="wrapper">
         <div class="left">
             <h2>Unsere Projekte</h2>
@@ -34,7 +32,8 @@ Description = ""
         </div>
     </div>
 </section>
-<section class="bottom-b">
+<!-- Section (Abschnitt) b -->
+<section class="section-b">
     <div class="wrapper">
         <div class="left">
             <h2>Was machen wir beim Coderdojo?</h2>

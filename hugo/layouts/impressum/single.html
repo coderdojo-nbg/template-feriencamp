@@ -5,14 +5,19 @@
     <title>Mein Coderdojo Nürnberg</title>
 
     <link href="/images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
+    <link href="/css/normalize.css" rel="stylesheet" type="text/css">
     <link href="/css/style.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans|Baumans' rel='stylesheet' type='text/css'/>
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
     <meta name="description" content="Impressum"/>
 
 </head>
 <body>
-    <!-- header mit Logo und Navigation -->
+    <!-- header mit Logo -->
     {{ partial "header.html" . }}
 
     <!-- großes Bild im oberen Bereich -->
@@ -20,9 +25,9 @@
     <!-- Main-Content - Inhalt(content) mit Sidebar -->
     <main>
         <div class="wrapper">
-                <article>
-                    {{.Content}}
-                </article>
+            <article>
+                {{.Content}}
+            </article>
             {{ partial "aside.html" . }}
         </div>
     </main>

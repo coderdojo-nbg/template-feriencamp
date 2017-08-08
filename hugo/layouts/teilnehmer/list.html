@@ -6,13 +6,8 @@
     <title>{{.Site.Title}}</title>
 
     <link href="../images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
-    <link href="../css/normalize.css" rel="stylesheet" type="text/css">
     <link href="../css/style.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans|Baumans' rel='stylesheet' type='text/css'/>
-
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
 
     <meta name="description" content="Hier gibt's Informationen über das Coderdojo-Feriencamp"/>
 </head>
@@ -26,7 +21,7 @@
 <div class="top-image"></div>
 
 <div class="wrapper">
-    <section class="bottom-a">
+    <section class="section-a">
         <h1>Liste der Teilnehmer</h1>
         {{ range $index, $element := .Data.Pages}}
         {{ partial "teilnehmer.html" . }}
