@@ -18,13 +18,8 @@
 
         <!-- großes Bild im oberen Bereich -->
         <div class="top-image"></div>
-<<<<<<< HEAD
         <!--  Main - Inhalt mit Sidebar -->
         <main>
-=======
-        <!-- Main-Content - Inhalt(content) mit Sidebar -->
-        <main class="main-content">
->>>>>>> 4ba97424bf40c1e0d3365db57823f7bcb04b07a2
             <div class="wrapper">
                 <article>
                     <h1>Willkommen beim CoderDojo-Feriencamp!</h1>
@@ -35,7 +30,6 @@
                 </article>
                 {{ partial "aside.html" . }}
             </div>
-<<<<<<< HEAD
             <!-- Section (Abschnitt) a -->
             <section class="section-a">
                 <div class="wrapper">
@@ -45,25 +39,6 @@
                     {{ partial "teilnehmer.html" . }}
                     {{end}}
                     {{ end }}
-=======
-        </main>
-        <!-- Bottom - Unterer Bereich -->
-        <section class="bottom-a">
-            <div class="wrapper">
-                <h2>Wer ist dabei?</h2>
-                {{ range .Data.Pages }}
-                {{if eq .Type "teilnehmer" }}
-                {{ partial "teilnehmer.html" . }}
-                {{end}}
-                {{ end }}
-            </div>
-        </section>
-        <section class="bottom-b">
-            <div class="wrapper">
-                <div class="left">
-                    <h2>Wie war's?</h2>
-                    <p>Hier ein Einblick in unser Feriencamp.</p>
->>>>>>> 4ba97424bf40c1e0d3365db57823f7bcb04b07a2
                 </div>
             </section>
             <!-- Section (Abschnitt) b -->
