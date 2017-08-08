@@ -19,10 +19,16 @@
 <body>
     <!-- header mit Logo -->
     {{ partial "header.html" . }}
+<<<<<<< HEAD
+=======
+    <!-- Navigation -->
+    {{ partial "navigation.html" . }}
+>>>>>>> 4ba97424bf40c1e0d3365db57823f7bcb04b07a2
 
     <!-- großes Bild im oberen Bereich -->
     <div class="top-image"></div>
     <!-- Main-Content - Inhalt(content) mit Sidebar -->
+<<<<<<< HEAD
     <main>
         <div class="wrapper">
             <article>
@@ -31,6 +37,18 @@
             {{ partial "aside.html" . }}
         </div>
     </main>
+=======
+    <div class="main-content">
+        <div class="wrapper">
+            <div class="content">
+                <article>
+                    {{.Content}}
+                </article>
+            </div>
+            {{ partial "aside.html" . }}
+        </div>
+    </div>
+>>>>>>> 4ba97424bf40c1e0d3365db57823f7bcb04b07a2
     <!-- Footer -->
     {{ partial "footer.html" . }}
 </body>

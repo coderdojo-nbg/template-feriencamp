@@ -35,3 +35,18 @@ Klingenhofstrasse 5
 
 ## Quellenangaben für die verwendeten Bilder und Grafiken
 CoderDojo Nürnberg e.V.
+
+<div class="main-content">
+    <div class="wrapper">
+        <div class="content">
+            <article>
+                <h1>Willkommen beim CoderDojo-Feriencamp!</h1>
+                <img src="/images/josephs.jpg">
+                <p>Im Coderdojo-Feriencamp kannst Du tolle Dinge erleben! Es gibt viele verschiedene Projekte,
+                    die
+                    Du hier mit Mentoren umsetzten kannst.</p>
+            </article>
+        </div>
+        {{ partial "aside.html" . }}
+    </div>
+</div>
