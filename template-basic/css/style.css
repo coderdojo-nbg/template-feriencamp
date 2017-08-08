@@ -73,37 +73,34 @@ nav ul li:hover a {
 
 
 /* css for <div class='content'> */
-div.content { 
+
+article { 
 	
 }
 
-.content article { 
-	
-}
-
-.content article h1 {
+article h1 {
 
 }
 
 
 /* css for <aside class='sidebar'> */
-aside.sidebar { 
+aside { 
 	
 }
 
-aside.sidebar a {
+aside a {
 
 }
 
-aside.sidebar .sidebar-box {  
+aside .box {  
 
 }
 
-aside.sidebar h2 {
+aside h2 {
 
 }
 
-aside.sidebar .ich img{
+aside.ich img{
 
 }
 
@@ -112,11 +109,11 @@ section {
 	
 }
 
-section.bottom-a {
+section.section-a {
 	
 }
 
-section.bottom-b {
+section.section-b {
 	
 }
 
